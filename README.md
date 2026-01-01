@@ -1,27 +1,84 @@
-# Jetpack Compose Basics Codelab
 
-This folder contains the source code for the solution of the
-[Jetpack Compose Basics codelab](https://developer.android.com/codelabs/jetpack-compose-basics).
+# 📱 MenuApp
 
-In this codelab you will go hands-on and learn the fundamentals of declarative UI and
-[Jetpack Compose](https://developer.android.com/jetpack/compose), working with state, layouts
-and theming.
+**MenuApp** es un proyecto de ejemplo desarrollado con **Jetpack Compose**, que consume una **API REST** y simula el flujo de registro y gestión de pedidos en un restaurante.
 
-## License
+La aplicación está pensada para ser utilizada en **tablets** dentro de un entorno de restaurante y contempla dos tipos de usuarios con roles diferentes.
 
-```
-Copyright 2021 The Android Open Source Project
+---
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+## 🚀 Descripción general
 
-    https://www.apache.org/licenses/LICENSE-2.0
+MenuApp permite **registrar órdenes de pedidos de menú** y visualizarlas en tiempo real según el rol del usuario:
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
-# MenuApp
+- **Waiter (Mesero)**  
+  Registra los pedidos de los clientes directamente desde una tablet, acercándose a cada mesa.
+
+- **Food Runner**  
+  Visualiza las órdenes registradas por los meseros para su preparación o entrega.
+
+---
+
+## 👥 Tipos de usuarios
+
+### 🧑‍🍽️ Waiter
+- Registra órdenes de productos del menú
+- Usa la app desde una **tablet**
+- Enfocado en la toma de pedidos en mesa
+
+**Credenciales de prueba:**
+Usuario: wt
+Contraseña: wt
+---
+
+### 🏃‍♂️ Food Runner
+- Visualiza las órdenes registradas
+- No registra pedidos
+- Enfocado en la ejecución y seguimiento de las órdenes
+
+**Credenciales de prueba:**
+
+Usuario: run
+Contraseña: run
+
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **Kotlin**
+- **Jetpack Compose**
+- **Arquitectura moderna (MVVM)**
+- **Consumo de API REST**
+- **Android SDK**
+
+---
+
+## 🧩 Funcionalidades principales
+
+- Login por tipo de usuario
+- Registro de órdenes de menú
+- Visualización de pedidos por rol
+- Separación de responsabilidades según usuario
+- UI declarativa con Compose
+
+---
+
+## 📌 Objetivo del proyecto
+
+Este proyecto tiene fines **educativos y demostrativos**, mostrando:
+- Uso de Jetpack Compose
+- Consumo de APIs
+- Manejo de roles de usuario
+- Flujo típico de una app para restaurantes
+
+---
+
+## 📷 Capturas
+*(Opcional: agrega aquí screenshots de la app)*
+
+---
+
+## 📄 Licencia
+Proyecto de ejemplo para fines educativos.
+
